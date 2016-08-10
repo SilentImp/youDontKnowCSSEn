@@ -1,10 +1,10 @@
-# Вы не знаете CSS
-## Обзор черновиков CSS WG
+# You don't know CSS
+## Review of the CSS WG drafts
 
-Это обзорный доклад черновиков CSS WG, которые незаслуженно обделяют вниманием
+Review of the CSS WG drafts, you probably don't know about
 
-# Конференции
+# Conference
 
-1. [KharkivCSS][1] 17 Сентября 2016 года.
+1. [KharkivCSS][1] 17 of september 2016.
 
 [1]: http://kharkivcss.org/
