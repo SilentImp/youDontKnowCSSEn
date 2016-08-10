@@ -1,41 +1,45 @@
 extends ./partials/layout.jade
 
 block title
-    title Вы не знаете CSS!
+    title You don't know CSS
 
 block slides
 
     article.cloud.center.ydncss
         h1 
-            p.wrapper Вы 
+            p.wrapper You 
                 br 
-                | не знаете CSS 
+                | don't know 
+                br
+                | CSS 
 
     article.cloud.center.ydncss-2
         h1 
-            p.wrapper когда вы в последний раз читали новые черновики?
+            p.wrapper When was last time you read drafts?
 
     article.cloud.center.ydncss-3
         h1 
-            p.wrapper Месяц назад?
+            p.wrapper Month ago?
 
     article.cloud.center.ydncss-4
         h1 
-            p.wrapper Пол года?
+            p.wrapper Half a year ago?
 
     article.cloud.center.ydncss-5
         h1 
-            p.wrapper Год?
+            p.wrapper Year?
 
     article.cloud.center.ydncss-6
         h1 
-            p.wrapper Что за черновики?!
+            p.wrapper What drafts?!
 
     article.cloud.center.ydncss-7
         h1 
-            p.wrapper Вы 
+            p.wrapper  You 
                 br 
-                | не знаете CSS 
+                | don't know
+                br
+                | CSS 
 
     //- article.cloud.center.ydncss-8
     //-     h1 
@@ -43,10 +47,9 @@ block slides
 
     article.cloud.center.where
         h1 
-            p.wrapper А где  
+            p.wrapper Where
                 br
-                | искать
-                | спеки?
+                | to find drafts?
 
     article.center.qrcode.csswg
         .wrapper
@@ -138,12 +141,12 @@ block slides
 
     article.cloud.center.contribute
         h1 
-            p.wrapper А ведь могли бы и помочь!
+            p.wrapper You may help, you know!
 
     article.center.qrcode.csswg-git
         .wrapper
             .half
-                h2 Репозиторий с черновиками рабочей группы CSS
+                h2 Repo with drafts of the CSS WG
             .half
                 img(src="images/csswg-git.svg", alt="QRCODE cо ссылкой на репозиторий с черновиками")
             p 
@@ -155,7 +158,7 @@ block slides
         .wrapper
             .half
                 img.avatar(src="images/selenit.jpg", alt="Фотографи Ильи Стрельцына")
-                h2 Илья Стрельцын 
+                h2 Ilya Strelcin
                     br
                     | SelenIT
             .half
@@ -163,13 +166,15 @@ block slides
             p 
                 a(href="https://twitter.com/@selenit2", data-click=true) https://twitter.com/@selenit2
 
-    article.screen.screen--why
+    article.screen.screen--why.cloud.center
+        h1
+            .wrapper You can easily made trackless trolley from loaf of bread … but WHY?!
 
     article.cloud.center.knowlage
         h1 
-            p.wrapper Знания 
+            p.wrapper Knowlage 
                 br
-                | и имя это потенциальные деньги!
+                | and name is potential money!
 
     article.illustration.illustration--point
 
@@ -412,7 +417,7 @@ block slides
 
     article.cloud.center.media
         h1
-            p.wrapper Но как я узнаю, что круглый дисплей — круглый?
+            p.wrapper But how I will know if display is round?
 
     article.center.code-1
         .wrapper
@@ -422,17 +427,17 @@ block slides
     article.center.code-1
         .wrapper
             pre
-                code.css="@media screen and (device-radius: 0%) {\n\t\\* Прямоугольный дисплей *\\\n}\n@media screen and (device-radius: 50%) {\n\t\\* Круглый дисплей *\\\n}"
+                code.css="@media screen and (device-radius: 0%) {\n\t\\* Square display *\\\n}\n@media screen and (device-radius: 50%) {\n\t\\* Round display *\\\n}"
 
     article.cloud.center.sure-1
         h1
-            p.wrapper Не вижу такого в 
+            p.wrapper Can't find in 
                 mark Media Queries Level 4
                 | !
 
     article.cloud.center.media
         h1
-            p.wrapper А как заставить текст обтекать границы экрана?
+            p.wrapper How to align contents in the display’s shape?
 
 
     article.center.code-1
@@ -454,13 +459,13 @@ block slides
 
     article.cloud.center.sure-2
         h1
-            p.wrapper Есть в 
+            p.wrapper It's in 
                 mark CSS Shapes Module Level 2
-                | , но нигде не работает!
+                | , but don't work anywhere!
 
     article.cloud.center.media
         h1
-            p.wrapper А что с рамкой? Которая border?
+            p.wrapper What about borders? How to draw them along the display’s edge?
 
     article.center.code-1
         .wrapper
@@ -486,17 +491,16 @@ block slides
 
     article.cloud.center.sure-2
         h1
-            p.wrapper В 
+            p.wrapper Not a word inside 
                 mark CSS Backgrounds and Borders Module Level 4
-                |  — ни слова
 
     article.cloud.center.media
         h1
-            p.wrapper А что с координатами? [0;0] не существует?
+            p.wrapper What about origin? [0;0] don't exist?
 
     article.cloud.center.polar
         h1
-            p.wrapper Используем полярную систему координат вместо декартовой!
+            p.wrapper Let's use polar coordinate system!
 
     article.screen.screen--polar
 
@@ -507,10 +511,10 @@ block slides
 
     article.cloud.center.sure-2
         h1
-            p.wrapper polar в
+            p.wrapper polar from
                 br 
                 mark CSS Positioned Layout Module Level 3
-                | ? — Нет, не слышали
+                | ? — Nope, never heard!
 
     article.blockquote
         blockquote 
@@ -548,7 +552,7 @@ block slides
 
     article.cloud.center.snap
         h1
-            p.wrapper Привязка скрола
+            p.wrapper Scroll snap
 
     article.center.code-1
         .wrapper
@@ -704,15 +708,15 @@ block slides
 
     article.cloud.real
         h1
-            p.wrapper Я — настоящий механник!
+            p.wrapper I am — real mechanic!
 
     article.cloud.real
         h1
-            p.wrapper А CSS это настоящий язык програм&shy;мирования!
+            p.wrapper Аnd CSS is a real programming language! Seriously!
 
     article.cloud.real
         h1
-            p.wrapper В нём есть переменные! Правда!
+            p.wrapper It have variables! Really!
 
     article.center.code-1
         .wrapper
@@ -743,12 +747,12 @@ block slides
 
     article.cloud.real
         h1
-            p.wrapper В CSS будут кастомные селекторы
+            p.wrapper In the future you will create custom selectors in CSS
 
     article.center.code-2
         .wrapper
             pre
-                code.css="@custom-selector :--heading h1, h2, h3, h4, h5, h6;\n:--heading {\n\t/* Стили заголовков */\n}"
+                code.css="@custom-selector :--heading h1, h2, h3, h4, h5, h6;\n:--heading {\n\t/* Header styles */\n}"
 
     article.center.qrcode.var
         .wrapper
@@ -761,7 +765,7 @@ block slides
 
     article.cloud.real
         h1
-            p.wrapper Можно проверять поддержку свойств
+            p.wrapper We may check features support
 
     article.center.code-1
         .wrapper
@@ -873,7 +877,7 @@ block slides
     article.contacts.center.qrcode
         .wrapper
             .about-speaker.half
-                p.name Антон Немцев
+                p.name Anton Nemtsev
                 p.link http://silentimp.info/
                 p.twitter @silentimp
                 p.email thesilentimp@gmail.com
