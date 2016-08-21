@@ -19,7 +19,9 @@ block slides
 
     article.cloud.center.ydncss-3
         h1 
-            p.wrapper Month ago?
+            p.wrapper A 
+                br 
+                | month ago?
 
     article.cloud.center.ydncss-4
         h1 
@@ -27,7 +29,9 @@ block slides
 
     article.cloud.center.ydncss-5
         h1 
-            p.wrapper Year?
+            p.wrapper A 
+                br 
+                | Year?
 
     article.cloud.center.ydncss-6
         h1 
@@ -81,6 +85,10 @@ block slides
                 img(src="images/maturity.svg", alt="QRCODE cо ссылкой на описание жизненного цикла спецификации")
             p 
                 a(href="https://www.w3.org/2005/10/Process-20051014/tr#maturity-levels", data-click=true) https://goo.gl/l6dYhc
+
+    article.cloud.center.roadmap
+        h1 
+            p.wrapper Roadmap
 
     article.screen.screen--webkit
 
@@ -316,6 +324,10 @@ block slides
             p 
                 a(href="https://www.w3.org/TR/motion-1/", data-click=true) https://www.w3.org/TR/motion-1/
 
+    article.cloud.center.images
+        h1 
+            p.wrapper Images
+
     article.center.code-1
         .wrapper
             pre
@@ -335,17 +347,6 @@ block slides
                 mark object-fit: cover;
 
     article.screen.screen--support-fit
-
-    article.center.code-1
-        .wrapper
-            pre
-                code.css=".container {\n\tbackground-image: cross-fade(\n\t\turl(source-1.png), \n\t\turl(source-2.png), \n\t\t50%);\n}"
-
-    article.example.example--crossfade-source
-
-    article.example.example--crossfade
-
-    article.screen.screen--support-cross
 
     article.center.qrcode.var
         .wrapper
@@ -794,47 +795,47 @@ block slides
 
     article.illusration.illusration--typo
 
-    article.center.code-1
-        .wrapper
-            pre
-                code.css="article {\n\thyphenate-character: \"~\";\n\thyphenate-limit-zone: 10%;\n\thyphenate-limit-chars: 3;\n\thyphenate-limit-lines: 3;\n\thyphenate-limit-last: always;\n}"
+    //- article.center.code-1
+    //-     .wrapper
+    //-         pre
+    //-             code.css="article {\n\thyphenate-character: \"~\";\n\thyphenate-limit-zone: 10%;\n\thyphenate-limit-chars: 3;\n\thyphenate-limit-lines: 3;\n\thyphenate-limit-last: always;\n}"
 
-    article.center.qrcode.var
-        .wrapper
-            .half
-                h2 CSS Text Module Level 4
-            .half
-                img(src="images/text.svg", alt="QRCODE cо ссылкой на CSS Text Module Level 4")
-            p 
-                a(href="https://drafts.csswg.org/css-text-4/", data-click=true) https://drafts.csswg.org/css-text-4/
+    //- article.center.qrcode.var
+    //-     .wrapper
+    //-         .half
+    //-             h2 CSS Text Module Level 4
+    //-         .half
+    //-             img(src="images/text.svg", alt="QRCODE cо ссылкой на CSS Text Module Level 4")
+    //-         p 
+    //-             a(href="https://drafts.csswg.org/css-text-4/", data-click=true) https://drafts.csswg.org/css-text-4/
 
-    article.center.code-1
-        .wrapper
-            pre
-                code.css="article {\n\torphans: 5;\n}"
+    //- article.center.code-1
+    //-     .wrapper
+    //-         pre
+    //-             code.css="article {\n\torphans: 5;\n}"
 
-    article.example.example--orphan
-        .wrapper
-            .vhalf
-                p Use CSS generated content for decoration and non-vital information, but make sure it’s properly handled by screen readers, so that people with assistive technology are not distracted. Think “progressive enhancement” when deciding whether to use CSS generated content.
-                mark 
-                    span orphans: 2;
+    //- article.example.example--orphan
+    //-     .wrapper
+    //-         .vhalf
+    //-             p Use CSS generated content for decoration and non-vital information, but make sure it’s properly handled by screen readers, so that people with assistive technology are not distracted. Think “progressive enhancement” when deciding whether to use CSS generated content.
+    //-             mark 
+    //-                 span orphans: 2;
 
-            .vhalf
-                p Use CSS generated content for decoration and non-vital information, but make sure it’s properly handled by screen readers, so that people with assistive technology are not distracted. Think “progressive enhancement” when deciding whether to use CSS generated content.
-                mark 
-                    span orphans: 5;
+    //-         .vhalf
+    //-             p Use CSS generated content for decoration and non-vital information, but make sure it’s properly handled by screen readers, so that people with assistive technology are not distracted. Think “progressive enhancement” when deciding whether to use CSS generated content.
+    //-             mark 
+    //-                 span orphans: 5;
 
-    article.screen.screen--orphans-support
+    //- article.screen.screen--orphans-support
 
-    article.center.qrcode.var
-        .wrapper
-            .half
-                h2 Cascading Style Sheets Level 2 Revision 1
-            .half
-                img(src="images/orphans.svg", alt="QRCODE cо ссылкой на Cascading Style Sheets Level 2 Revision 1")
-            p 
-                a(href="https://www.w3.org/TR/CSS2/page.html#propdef-orphans", data-click=true) https://goo.gl/GVxe6x
+    //- article.center.qrcode.var
+    //-     .wrapper
+    //-         .half
+    //-             h2 Cascading Style Sheets Level 2 Revision 1
+    //-         .half
+    //-             img(src="images/orphans.svg", alt="QRCODE cо ссылкой на Cascading Style Sheets Level 2 Revision 1")
+    //-         p 
+    //-             a(href="https://www.w3.org/TR/CSS2/page.html#propdef-orphans", data-click=true) https://goo.gl/GVxe6x
 
     article.center.code-1
         .wrapper
@@ -880,10 +881,11 @@ block slides
                 p.name Anton Nemtsev
                 p.link http://silentimp.info/
                 p.twitter @silentimp
-                p.email thesilentimp@gmail.com
+                p.email 
+                    a(href="mailto:anton.nemtsev@vaimo.com", data-click=true) anton.nemtsev@vaimo.com
                 p.skype skype: ravencry
             .half
                 img(src="images/git.svg", alt="QRCODE cо ссылкой на доклад")
             
             p 
-                a(href="https://github.com/SilentImp/youDontKnowCSS", data-click=true) https://goo.gl/d8iCDT
+                a(href="https://goo.gl/7H5LfB", data-click=true) https://goo.gl/7H5LfB
