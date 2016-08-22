@@ -1656,12 +1656,12 @@ article.screen.screen--support-support {
   z-index: 100;
 }
 
-@supports ((position: -webkit-sticky) or (position: sticky)) {
+@supports ( -moz-stack-sizing: stretch-to-fit ) {
   article.example.example--support .half.sticky {
     background: green;
   }
   article.example.example--support .half.sticky:after {
-    content: "YES";
+    content: "ДА";
     color: #060;
   }
 }
@@ -1671,7 +1671,7 @@ article.screen.screen--support-support {
     background: green;
   }
   article.example.example--support .half.motion:after {
-    content: "YES";
+    content: "ДА";
     color: #060;
   }
 }
@@ -1754,7 +1754,6 @@ section#slides article.example.example--news ul.news .item {
   -webkit-scroll-snap-coordinate: 0 0;
       -ms-scroll-snap-coordinate: 0 0;
           scroll-snap-coordinate: 0 0;
-  scroll-snap-stop: always;
 }
 section#slides article.example.example--news ul.news .item .illustration {
   vertical-align: top;
